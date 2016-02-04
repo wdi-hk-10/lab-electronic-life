@@ -12,7 +12,7 @@ In this lab you will work on a simplified version of Conway's original "Game of 
 
 You can see the full description of this game (and you are **highly recommended** to do that!!) in [Chapter 7](http://eloquentjavascript.net/07_elife.html) of the book.
 
-## The Start Code
+## The Starter Code
 You **DO NOT** need to change any of these files:
   - readme.md          : You are reading it
   - demo.html          : The original game where the `PlantEater` animals do not last very long. It is for your reference.
@@ -35,7 +35,7 @@ Create an ecosystem where the inhabitants of the world can **live long and prosp
 Read [Chapter 7](http://eloquentjavascript.net/07_elife.html) of the book to get a better understanding of the game and the behavior of various objects. This is also a good exercise to practise how to read documentation and other people's code.
 
 ### Task 1: Artificial Stupidity
-Implement the behavior of the `SmartPlantEater` so that they will last longer in the game than their ancestor `PlantEater`. The default behavior of the `SmartPlantEater` in the start code is that they will move East on every turn until they hit an obstacle and they won't die (undead)?
+Implement the behavior of the `SmartPlantEater` so that they will last longer in the game than their ancestor `PlantEater`. The initial behavior of the `SmartPlantEater` in the starter code is that they will move East on every turn until they hit an obstacle and they won't eat nor die (undead?).
 
 > Having the inhabitants of our world go extinct after a few minutes is kind of depressing. To deal with this, we could try to create a smarter plant eater.
 >
@@ -46,7 +46,7 @@ Implement the behavior of the `SmartPlantEater` so that they will last longer in
 > Excerpt from Eloquent JavacriptL: Chapter 7 Electronic Life
 
 ### Task 2: Predators
-Implement the behavior of the `Tiger` so that they can become the King of the Land. The default behavior of the `Tiger` in the start code is that they will move East on every turn until they hit an obstacle and they won't eat nor die (undead)?
+Implement the behavior of the `Tiger` so that they can become the King of the Land. The initial behavior of the `Tiger` in the starter code is that they will move East on every turn until they hit an obstacle and they won't eat nor die (undead)?
 
 >Any serious ecosystem has a food chain longer than a single link. Write another critter that survives by eating the herbivore critter. You’ll notice that stability is even harder to achieve now that there are cycles at multiple levels. Try to find a strategy to make the ecosystem run smoothly for at least a little while.
 >
@@ -56,7 +56,5 @@ Implement the behavior of the `Tiger` so that they can become the King of the La
 
 ### Taks 3: Optional
 You can create another HTML file to host other variations of the animals, create new animals or even create a new world. Be Creative!!
-
-
 
 
