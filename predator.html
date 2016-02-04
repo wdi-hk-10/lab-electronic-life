@@ -1,0 +1,34 @@
+<!doctype html>
+<script src="js/elife.js"></script>
+<script src="js/animateworld.js"></script>
+<script src="js/smart-plant-eater.js"></script>
+<script src="js/predator.js"></script>
+
+<body>
+  <script>
+    animateWorld(new LifelikeWorld(
+      ["####################################################",
+       "#                 ####         ****              ###",
+       "#   *  @  ##                 ########       OO    ##",   
+       "#   *    ##        O O                 ****       *#",   
+       "#       ##*                        ##########     *#",   
+       "#      ##***  *         ****                     **#",   
+       "#* **  #  *  ***      #########                  **#",   
+       "#* **  #      *               #   *              **#",   
+       "#     ##              #   O   #  ***          ######",   
+       "#*            @       #       #   *        O  #    #",   
+       "#*                    #  ######                 ** #",   
+       "###          ****          ***                  ** #",   
+       "#       O                        @         O       #",   
+       "#   *     ##  ##  ##  ##               ###      *  #",   
+       "#   **         #              *       #####  O     #",   
+       "##  **  O   O  #  #    ***  ***        ###      ** #",   
+       "###               #   *****                    ****#",   
+       "####################################################"],  
+      {"#": Wall,   
+       "@": Tiger,   
+       "O": SmartPlantEater, // from previous exercise   
+       "*": Plant}
+    ));
+  </script>
+</body>
