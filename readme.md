@@ -4,6 +4,8 @@
 
 The [Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) is a cellular auomation designed by the British mathematician [John Conway](https://en.wikipedia.org/wiki/John_Horton_Conway) in 1970. This "game" does not require any player as the cells in the game will evolve on their own based an initial configuration of the game.
 
+You can check out a demo of this game [here](https://github.com/pmav/game-of-life).
+
 ## Electronic Life
 
 In this lab you will work on a simplified version of Conway's original "Game of Life" called **Electronic Life**. This version is available as part of the book [Eloquent JavaScript](http://eloquentjavascript.net/) written by Marijn Haverbeke. The code in this book are licensed under an [MIT license](http://opensource.org/licenses/MIT).
