@@ -12,7 +12,7 @@ In this lab you will work on a simplified version of Conway's original "Game of 
 
 You can see the full description of this game (and you are **highly recommended** to do that!!) in [Chapter 7](http://eloquentjavascript.net/07_elife.html) of the book.
 
-## The Start Code
+## The Starter Code
 You **DO NOT** need to change any of these files:
   - readme.md          : You are reading it
   - demo.html          : The original game where the `PlantEater` animals do not last very long. It is for your reference.
@@ -21,7 +21,7 @@ You **DO NOT** need to change any of these files:
   - js/animateworld.js : Code provided in [Eloquent JavaScript](http://eloquentjavascript.net/)
   - js/elife.js        : Code provided in [Eloquent JavaScript](http://eloquentjavascript.net/)
 
-You *MUST* modify these files to complete the lab:
+You **MUST** modify these files to complete the lab:
   - js/smart-plant-eater.js  : Modify this for Task 1
   - js/predator.js           : Modify this for Task 2
 
@@ -29,34 +29,32 @@ You *MUST* modify these files to complete the lab:
 ## Your Tasks
 
 ### Your Goal
-Create an ecosystem where the inhabitants of the world can live **long and prosper**.
+Create an ecosystem where the inhabitants of the world can **live long and prosper**.
 
 ### Read the original description
 Read [Chapter 7](http://eloquentjavascript.net/07_elife.html) of the book to get a better understanding of the game and the behavior of various objects. This is also a good exercise to practise how to read documentation and other people's code.
 
 ### Task 1: Artificial Stupidity
-Implement the behavior of the `SmartPlantEater` so that they will last longer in the game than their ancestor `PlantEater`. The default behavior of the `SmartPlantEater` in the start code is that they will move East on every turn until they hit an obstacle and they won't die (undead)?
+Implement the behavior of the `SmartPlantEater` so that they will last longer in the game than their ancestor `PlantEater`. The initial behavior of the `SmartPlantEater` in the starter code is that they will move East on every turn until they hit an obstacle and they won't eat nor die (undead?).
 
-```
-Having the inhabitants of our world go extinct after a few minutes is kind of depressing. To deal with this, we could try to create a smarter plant eater.
-
-There are several obvious problems with our herbivores. First, they are terribly greedy, stuffing themselves with every plant they see until they have wiped out the local plant life. Second, their randomized movement (recall that the view.find method returns a random direction when multiple directions match) causes them to stumble around ineffectively and starve if there don’t happen to be any plants nearby. And finally, they breed very fast, which makes the cycles between abundance and famine quite intense.
-
-Write a new critter type that tries to address one or more of these points and substitute it for the old PlantEater type in the valley world. See how it fares. Tweak it some more if necessary.
-```
+> Having the inhabitants of our world go extinct after a few minutes is kind of depressing. To deal with this, we could try to create a smarter plant eater.
+>
+>There are several obvious problems with our herbivores. First, they are terribly greedy, stuffing themselves with every plant they see until they have wiped out the local plant life. Second, their randomized movement (recall that the view.find method returns a random direction when multiple directions match) causes them to stumble around ineffectively and starve if there don’t happen to be any plants nearby. And finally, they breed very fast, which makes the cycles between abundance and famine quite intense.
+>
+>Write a new critter type that tries to address one or more of these points and substitute it for the old PlantEater type in the valley world. See how it fares. Tweak it some more if necessary.
+>
+> Excerpt from Eloquent JavacriptL: Chapter 7 Electronic Life
 
 ### Task 2: Predators
-Implement the behavior of the `Tiger` so that they can become the King of the Land. The default behavior of the `Tiger` in the start code is that they will move East on every turn until they hit an obstacle and they won't eat nor die (undead)?
+Implement the behavior of the `Tiger` so that they can become the King of the Land. The initial behavior of the `Tiger` in the starter code is that they will move East on every turn until they hit an obstacle and they won't eat nor die (undead)?
 
-```
-Any serious ecosystem has a food chain longer than a single link. Write another critter that survives by eating the herbivore critter. You’ll notice that stability is even harder to achieve now that there are cycles at multiple levels. Try to find a strategy to make the ecosystem run smoothly for at least a little while.
-
-One thing that will help is to make the world bigger. This way, local population booms or busts are less likely to wipe out a species entirely, and there is space for the relatively large prey population needed to sustain a small predator population.
-```
+>Any serious ecosystem has a food chain longer than a single link. Write another critter that survives by eating the herbivore critter. You’ll notice that stability is even harder to achieve now that there are cycles at multiple levels. Try to find a strategy to make the ecosystem run smoothly for at least a little while.
+>
+>One thing that will help is to make the world bigger. This way, local population booms or busts are less likely to wipe out a species entirely, and there is space for the relatively large prey population needed to sustain a small predator population.
+>
+> Excerpt from Eloquent JavacriptL: Chapter 7 Electronic Life
 
 ### Taks 3: Optional
 You can create another HTML file to host other variations of the animals, create new animals or even create a new world. Be Creative!!
-
-
 
 
